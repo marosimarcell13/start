@@ -30,6 +30,7 @@ namespace AttaxxPlus.ViewModel
             FieldViewModel current = parameter as FieldViewModel;
 
             // Clicking own field selects that field.
+            // 2. feladat = NullReferenceException
             if (current.Owner == vm.CurrentPlayer)
             {
                 vm.SelectedField = current;

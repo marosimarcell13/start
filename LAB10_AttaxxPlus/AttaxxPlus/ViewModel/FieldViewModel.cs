@@ -45,6 +45,7 @@ namespace AttaxxPlus.ViewModel
                 if (isSelected != value)
                 {
                     isSelected = value;
+                    // 3.feladat = amennyiben átírom ture ra csak false értékre fut le
                     Notify();
                 }
             }
